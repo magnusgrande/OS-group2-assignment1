@@ -20,7 +20,7 @@ public class Client {
     }
     
     public static void main(String[] args) {
-        if (args.length != 4) {
+        if (args.length != 5) {
             System.out.println("Usage: java Client <host> <port> <num1> <operator> <num2>");
             System.out.println("Operators: A (addition), S (subtraction), M (multiplication), D (division)");
             return;
@@ -30,11 +30,7 @@ public class Client {
         int port = Integer.parseInt(args[1]);
         double num1 = Double.parseDouble(args[2]);
         String operator = args[3];
-        double num2 = 0;
-        
-        if (args.length > 4) {
-            num2 = Double.parseDouble(args[4]);
-        }
+        double num2 = Double.parseDouble(args[4]);
         
         String result = sendRequest(host, port, num1, operator, num2);
         System.out.println("Result: " + result);
