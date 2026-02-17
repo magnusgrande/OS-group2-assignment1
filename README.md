@@ -18,6 +18,17 @@ This project implements a client-server arithmetic calculator using Java sockets
 
 ## Usage
 
+### Quick Start - Run Performance Comparison
+
+The easiest way to test both servers is to use the provided script:
+
+```bash
+chmod +x run_comparison.sh
+./run_comparison.sh
+```
+
+This will automatically compile, start each server, run 10 simultaneous clients, and display the performance comparison.
+
 ### Compilation
 
 ```bash
