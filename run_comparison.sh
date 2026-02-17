@@ -44,10 +44,6 @@ echo ""
 
 kill $SERVER2_PID 2>/dev/null
 
-echo "======================================================================"
-echo "Performance Comparison Complete!"
-echo "======================================================================"
-echo ""
-echo "Note: The multi-threaded server should handle concurrent requests"
-echo "more efficiently than the single-threaded server when under load."
-echo ""
+# Keep the terminal open for review
+echo "Tests completed. Press Enter to exit."
+read -p "Press Enter to continue..."
