@@ -5,6 +5,9 @@ A client–server arithmetic calculator for an 'Operating Systems with System Pr
 # Contributors
 
 Ida Soldal - @captnsundy
+
 Magnus Grande - @magnusgrande
+
 Maher Maoued - @mahermx
+
 Mona Amundsen - @lordmanbat
